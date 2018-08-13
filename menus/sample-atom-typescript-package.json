@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle sample-atom-typescript-package",
+        "command": "sample-atom-typescript-package:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "sample-atom-typescript-package",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "sample-atom-typescript-package:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
