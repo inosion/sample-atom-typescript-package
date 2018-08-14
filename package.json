@@ -13,6 +13,12 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "@types/atom":"*"
+    "typescript": "2.3",
+    "@types/atom": "*",
+    "@types/react": "*",
+    "@types/react-native": "*"
+  },
+  "devDependencies": {
+    "typescript": "^2.3.4"
   }
 }

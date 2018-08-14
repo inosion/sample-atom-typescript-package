@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports" : true,
     "importHelpers": true,
     "jsx": "react",
     "lib": ["es6", "dom"],
